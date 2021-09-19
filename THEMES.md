@@ -8,12 +8,12 @@
 
 Here you can find preview images for all the themes. Some of them may have different color schemes or alternate versions, and will be under a 'category' or 'group'. 
 
-## Default themes
+## [Default themes](Default_Themes)
 
-### Default
+### [Default](Default_Themes/Default)
 
 ![Default Screenshot](Default_Themes/Default/Switcher.png)
 
-### Dracula Cyan
+### [Dracula Cyan](Default_Themes/Dracula_Cyan)
 
 ![Dracula Cyan Screenshot](Default_Themes/Dracula_Cyan/Switcher.png)

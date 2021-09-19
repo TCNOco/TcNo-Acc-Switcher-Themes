@@ -55,19 +55,19 @@ If you're submitting more than 1 theme under a general category: Create a folder
 5. Add your theme, or theme category to the THEMES.md file using the following structure. The file is ordered alphabetically, keep it that way.
 
 ```markdown
-## Theme name
+## [Theme name](ThemeFolder)
 
 [A single image of the theme]
 ```
 or
 ```markdown
-## Category name
+## [Category name](ThemeCategory)
 
-### Theme name 1
+### [Theme name 1](ThemeCategory/Theme1)
 
 [A single image of the theme]
 
-### Theme name 2
+### [Theme name 2](ThemeCategory/Theme2)
 
 [A single image of the theme]
 
