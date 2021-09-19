@@ -12,8 +12,8 @@ Here you can find preview images for all the themes. Some of them may have diffe
 
 ### Default
 
-![Default Screenshot](Default Themes/Default/Switcher.png)
+![Default Screenshot](Default_Themes/Default/Switcher.png)
 
 ### Dracula Cyan
 
-![Dracula Cyan Screenshot](Default Themes/Dracula_Cyan/Switcher.png)
+![Dracula Cyan Screenshot](Default_Themes/Dracula_Cyan/Switcher.png)

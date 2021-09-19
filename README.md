@@ -11,11 +11,11 @@
 *Wastes no time closing, switching and restarting Steam and other platforms.*
 
 
-You can add your own theme by opening a Pull Request (See CONTRIBUTING.md)
+You can add your own theme by opening a Pull Request (See [CONTRIBUTING.md](CONTRIBUTING.md))
 
 ## Previews
 
-Find a preview of all the themes in THEMES.md
+Find a preview of all the themes in [THEMES.md](THEMES.md)
 
 ### Installation
 

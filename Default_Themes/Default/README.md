@@ -3,9 +3,9 @@
 
 ## Screenshots
 
-![Menu](Default/Menu.png)
-![Settings](Default/Settings.png)
-![Switcher](Default/Switcher.png)
+![Menu](Menu.png)
+![Settings](Settings.png)
+![Switcher](Switcher.png)
 
 ## Information
 

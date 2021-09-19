@@ -3,11 +3,11 @@
 
 ### Default
 
-![Default Screenshot](Default Themes/Default/Switcher.png)
+![Default Screenshot](Default/Switcher.png)
 
 ### Dracula Cyan
 
-![Dracula Cyan Screenshot](Default Themes/Dracula_Cyan/Switcher.png)
+![Dracula Cyan Screenshot](Dracula_Cyan/Switcher.png)
 
 ## Information
 
