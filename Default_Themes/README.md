@@ -1,13 +1,13 @@
 
 ## Default Themes
 
-### Default
-
-![Default Screenshot](Default/Switcher.png)
-
-### Dracula Cyan
+### Dracula Cyan (Default)
 
 ![Dracula Cyan Screenshot](Dracula_Cyan/Switcher.png)
+
+### Old Default
+
+![Old Default Screenshot](Old_Default/Switcher.png)
 
 ## Information
 

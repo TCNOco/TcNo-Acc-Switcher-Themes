@@ -10,7 +10,7 @@ Here you can find preview images for all the themes. Some of them may have diffe
 
 ## [Default themes](Default_Themes)
 
-### [Default](Default_Themes/Default)
+### [Old Default](Default_Themes/Old_Default])
 
 ![Default Screenshot](Default_Themes/Default/Switcher.png)
 
