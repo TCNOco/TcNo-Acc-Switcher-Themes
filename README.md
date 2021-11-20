@@ -17,7 +17,7 @@ You can add your own theme by opening a Pull Request (See [CONTRIBUTING.md](CONT
 
 Find a preview of all the themes in [THEMES.md](THEMES.md)
 
-### Installation
+## Installation
 
 - Download files related to the theme of your choice. Place the files into `%AppData%\TcNo Account Switcher\themes`.
 
@@ -28,3 +28,10 @@ Find a preview of all the themes in [THEMES.md](THEMES.md)
 ### Activating themes
 
 Open the TcNo Account Switcher, click the Settings cogwheel icon, then next to `Current Style` select your preferred theme from the dropdown.
+
+### Theme Creation Crash Course
+<p align="center">
+	<a href="https://youtu.be/rulU3bKyel0">
+	    <img alt="Website" src="https://i.imgur.com/Pij9ASE.png" target="_blank" height=300">
+	</a>
+</p>
