@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://tcno.co/">
-    <img src="https://raw.githubusercontent.com/TcNobo/TcNo-Acc-Switcher/master/other/img/Banner.png"></a>
+    <img src="https://raw.githubusercontent.com/TcNobo/TcNo-Acc-Switcher-Themes/master/other/img/Themes_Banner.png"></a>
 </p>
 
 # Contributing guidelines
