@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="https://tcno.co/">
     <img src="https://raw.githubusercontent.com/TcNobo/TcNo-Acc-Switcher/master/other/img/Banner.png"></a>
@@ -80,7 +81,8 @@ Created by <username>.
 [Specify any fonts needed, download links if not included in SCSS; (optionally) author name and/or any other info about the theme]
 ```
 
-4. In the future, extra `js`, `css` and other files are planned to be used by the program as well. Currently only `style.scss` is compiled and used by the TcNo Account Switcher. Images and other files in this folder will not link properly.
+4. **Extra files?** In the future, extra `js`, `css` and other files are planned to be used by the program as well. Currently only `style.scss` is compiled and used by the TcNo Account Switcher. Images and other files in this folder will not link properly. FOR NOW user input is required (mentioned under *Installation* in the main `README.md`. You can create a `wwwroot` folder and place required files in there. Do see the actual [wwwroot folder](https://github.com/TcNobo/TcNo-Acc-Switcher/tree/master/TcNo-Acc-Switcher-Server/wwwroot) so you know what directory structure to follow. 
+If your work applies or works well with the actual program, your user-content could be included in any way in the official repo. You will be credited in the software for all to see.
 
 ## Multiple themes
 
