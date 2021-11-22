@@ -4,6 +4,7 @@
 
 ## Screenshots
 
+![PNG](https://i.imgur.com/1nM5ESe.png)
 ![PNG](https://i.imgur.com/EQFCrZm.png)
 ![PNG](https://i.imgur.com/Ubv3LAM.png)
 ![GIF](https://i.imgur.com/fqoMVth.gif)
