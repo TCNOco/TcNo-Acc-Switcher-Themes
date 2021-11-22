@@ -1,6 +1,6 @@
 # Monokai
 
-> ***NOTE: If you're using NONE RTL please consider using the [Default](<../Monokai\_(Right*To*Left)/README.md>) version***
+> ***NOTE: If you're using RTL language (e.g. Arabic) Please consider using the [Right To Left version](<../Monokai\_(Right*To*Left)/README.md>)***
 
 ## Screenshots
 

@@ -1,5 +1,7 @@
 # Monokai
 
+> **_NOTE: If you're using NONE RTL please consider using the [Default](../Monokai/README.md) version_**
+
 ## Screenshots
 
 ![PNG](https://i.imgur.com/9zQi4MU.png)
@@ -12,5 +14,3 @@
 دارك ثيم مستوحى من ثيم vscode الفضل لدي [Monokai](https://monokai.pro/vscode)
 
 من تصميم [مايجر عماري | MajorAmari](https://github.com/Majoramari).
-
-***NOTE: If you're using RTL language (e.g. Arabic) Please consider using the [Right To Left)](<../Monokai\_(Right*To*Left)/README.md>) version***
