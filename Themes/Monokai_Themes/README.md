@@ -6,6 +6,4 @@
 
 ![LTR](https://i.imgur.com/1nM5ESe.png)
 
-### [Monokai RTL | للعربية](Monokai_(Right_To_Left))
-
-![RTL](https://i.imgur.com/9zQi4MU.png)
+Note from TechNobo: Thanks again for your work translating, and helping with RTL support @Majoramari!
