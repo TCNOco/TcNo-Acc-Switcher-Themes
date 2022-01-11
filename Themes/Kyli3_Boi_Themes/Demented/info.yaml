@@ -1,0 +1,22 @@
+# This theme's name (Shows in-app, can be different to folder name)
+name: Demented
+accent: "#ff0000"
+
+# Required colors for updater & main UI (not HTML/CSS):
+# - Not including these will cause the updater to use default color scheme (Dracula Cyan)
+linkColor: "#990000" # Accent color
+headerbarBackground: "#402525"
+mainBackground: "#190e0e"
+modalInputBackground: "#0d0707"
+borderedItemBorderColor: "#888888"
+buttonBackground: "#b90000"
+buttonBackground-hover: "#4e2828"
+buttonBackground-active: "#4e2828"
+buttonColor: "#FFFFFF"
+buttonBorder: "#b90000"
+buttonBorder-hover: "#b90000"
+buttonBorder-active: "#990000"
+windowControlsBackground: "#402525"
+windowControlsBackground-active: "#533b3b"
+windowControlsCloseBackground: "#D51426"
+windowControlsCloseBackground-active: "#D51426"

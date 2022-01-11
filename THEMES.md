@@ -26,3 +26,10 @@ Here you can find preview images for all the themes. Some of them may have diffe
 ### [Monokai](Themes/Monokai_Themes/Monokai)
 
 ![LTR](https://i.imgur.com/1nM5ESe.png)
+
+---
+
+## [Kyli3_Boi Themes](Themes/Kyli3_Boi_Themes)
+### [Demented](Themes/Kyli3_Boi_Themes/Demented)
+
+![Demented Screenshot](Themes/Kyli3_Boi_Themes/Demented/Menu.png)
