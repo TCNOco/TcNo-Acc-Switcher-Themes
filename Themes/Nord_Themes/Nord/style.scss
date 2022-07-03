@@ -3,16 +3,53 @@
     - Created by Xapu1337
 */
 
+$nordDark0: #2E3440;
+$nordDark1: #3B4252;
+$nordDark2: #434C5E;
+$nordDark3: #4C566A;
+$nordDark4: #D8DEE9;
+$nordDark5: #E5E9F0;
+$nordDark6: #ECEFF4;
+$nordDark0-10: darken(#2E3440, 10%);
+$nordDark1-10: darken(#3B4252, 10%);
+$nordDark2-10: darken(#434C5E, 10%);
+$nordDark3-10: darken(#4C566A, 10%);
+$nordDark4-10: darken(#D8DEE9, 10%);
+$nordDark5-10: darken(#E5E9F0, 10%);
+$nordDark6-10: darken(#ECEFF4, 10%);
+$nordFrost0: #8FBCBB;
+$nordFrost1: #88C0D0;
+$nordFrost2: #81A1C1;
+$nordFrost3: #5E81AC;
+$nordAuora0: #BF616A;
+$nordAuora1: #D08770;
+$nordAuora2: #EBCB8B;
+$nordAuora3: #A3BE8C;
+$nordAuora4: #B48EAD;
 :root {
-  --accent: #5E81AC;
+  --accent: $nordFrost3;
   --accentHS: 213, 32%;
   --accentL: 52%;
   --accentInt: 94, 129, 172;
-  --accentDarkest: darken(var(--accent), 25%);
-  --notification-main-bg: #22262e;
+  --notification-main-bg: #1d2027;
+  --notification-info-border: #5E81AC;
+  // darken, ligten will not work in var() so we split up nord colors into SASS variables and the rest as normal css variables
+  --notification-info-highlight: #81A1C1;
+  --notification-success-border: #A3BE8C;
+  --notification-success-highlight: #c0daa9;
+  --notification-warning-border: #D08770;
+  --notification-warning-highlight: #e9a590;
+  --notification-error-border: #BF616A;
+  --notification-error-highlight: #e07f88;
+  --notification-border-radius: 0.25rem;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik&family=Roboto&display=swap");
+
+
+app {
+  border-radius: .125rem;
+}
 
 * {
   -webkit-user-select: none;
@@ -30,15 +67,15 @@ body {
 button,
 button#modal_true,
 button#btnLogin {
-    background: #4C566A;
+    background: $nordDark3;
+    color: $nordDark4;
     font-size: smaller;
-    border-color: #272c35;
+    border-color: $nordDark1;
     border-radius: 0.35rem;
-
     &:hover {
-        background-color: darken($color: #4C566A, $amount: 10%);
+        background-color: $nordDark1;
         border-radius: 0.5rem;
-        border-color: darken($color: #272c35, $amount: 10%);
+        border-color: $nordDark2-10;
     }
 }
 
@@ -46,9 +83,21 @@ button:active,
 .button:active,
 .button:target,
 .show > .dropdown-toggle {
-  background: #2E3440 !important;
-  border-color: var(--accent) !important;
+  background: $nordDark1 !important;
+  border-color: $nordFrost3 !important;
   border-radius: 0.2rem;
+}
+
+#btnClose:hover,#btnClose-modal:hover {
+  background: $nordAuora0 !important;
+}
+
+#btnClose:active,#btnClose-modal:active {
+  background: $nordAuora0 !important;
+}
+
+#btnClose:active .icon,#btnClose-modal:active .icon {
+  filter: invert(1);
 }
 
 #btnStartPlat, #shortcutDropdownBtn, .shortcutDropdown #btnOpenShortcutFolder {
@@ -75,12 +124,12 @@ button:active,
 }
 
 .shortcutPlaceholder {
-    background: #2E3440;
+    background: $nordDark0;
 }
 
 .shortcuts, .shortcutDropdown {
     border-radius: 0.5rem;
-    background: #2E3440;
+    background: $nordDark0;
     max-width: 262px;
 }
 
@@ -89,13 +138,13 @@ button:active,
 }
 
 .shortcutDropdown, .shortcuts.expandShortcuts {
-    border: .1em solid var(--accent);
+    border: .1em solid $nordFrost3;
 }
 
 .custom-dropdown-menu {
-    background: #2E3440 !important;
-    border-radius: 0.25rem;
-    border: 3px solid darken(#2E3440, 10%);
+    background: $nordDark0 !important;
+    border-radius: 0.5rem;
+    border: 3px solid $nordDark3;
     top: 0.5rem !important;
     font-size: medium;
     max-height: 60vh;
@@ -105,11 +154,11 @@ button:active,
 
 a.fancyLink {
   &:hover {
-    color: #5E81AC;
+    color: $nordFrost3;
   }
 
   &:active {
-    color: #5E81AC;
+    color: $nordFrost3;
   }
 }
 
@@ -118,22 +167,22 @@ a.fancyLink {
 }
 
 ::-webkit-scrollbar-track {
-  background: #3B4252;
+  background: $nordDark1;
   border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #2E3440;
+  background-color: $nordDark0;
   border-radius: 20px;
-  border: 1px solid #4C566A;
+  border: 1px solid $nordDark3;
 
   &:hover {
-    background-color: #3B4252;
+    background-color: $nordDark1;
   }
 }
 
 .programMain {
-  background: #2E3440;
+  background: $nordDark0;
 }
 
 label.form-check-label {
@@ -141,56 +190,87 @@ label.form-check-label {
 }
 
 input[type="checkbox"]:checked + label {
-  background: #A3BE8C;
-  border: 1px solid #D8DEE9;
+  background: $nordAuora3;
+  border: 1px solid $nordDark4;
 }
 
 input[type="checkbox"] + label {
-  border: 1px solid #D8DEE9;
+  border: 1px solid $nordDark4;
 }
+
+input[type=number],
+input[type=text],
+input[type=password] {
+    -moz-appearance: textfield;
+    display: inline-block;
+    margin: 0 0.5em 2px 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5rem;
+    border-bottom: none;
+    outline: 0;
+    background: $nordDark0-10;
+    color: $nordDark6;
+}
+
+input[type=number] { border-bottom: 2px solid $nordFrost3; }
+
+input[type=number]:focus,
+input[type=text]:focus,
+input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%); }
+
+
+#modal_contents input[type=text],#modal_contents input[type=password] {
+  margin: 0;
+  height: 43px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid $nordFrost3;
+  background-color: $nordDark0-10 !important;
+  color: $nordDark6;
+}
+
+#modal_contents input[type=text]:focus, #modal_contents input[type=password]:focus {
+  border-bottom: 2px solid $nordFrost3; 
+}
+
 
 .acc_list_actionbar {
   position: fixed;
   padding-left: 10px;
   padding-right: 10px;
-  opacity: 50%;
-  background: #2E3440;
+  background: $nordDark0;
   bottom: 7px;
   left: 0;
 }
 
 .pathPicker {
-  background: #2E3440;
+  background: $nordDark0;
 
   span:not(.c):hover {
-    color: var(--accent) !important;
+    color: $nordFrost3 !important;
   }
 
   span.selected-path, spanselected-path::before {
-    background-color: var(--accentDarkest);
+    background-color: $nordFrost3;
   }
 
   div:not(:first-child) {
-    border-left: .1rem solid #262b33;
+    border-left: .1rem solid $nordDark0-10;
     margin: .1rem;
   }
-  // div:not(:first-child) {
-  //   border-left: 1px solid darken(var(--accentDarkest), 10&);
-  //   padding: 0.5rem;
-  // }
+
   span::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: .3em;
     content: "";
     margin-right: 7px;
-    color: #EBCB8B;
+    color: $nordAuora2;
   }
 
   span.folder::before {
     content: "";
     margin-right: 5px;
-    color: #EBCB8B;
+    color: $nordAuora2;
   }
 
   span.head::before {
@@ -199,7 +279,7 @@ input[type="checkbox"] + label {
   }
 
   .c,.pathPicker .c::before {
-    color: #5E81AC !important;
+    color: $nordFrost1 !important;
 }
 
     
@@ -221,19 +301,20 @@ input[type="checkbox"] + label {
   overflow-y: auto;
 }
 
+
+
 .platform_list_item {
     border-radius: .2rem;
-    border: var(--accent) 1px solid;
-    color: #D8DEE9;
+    border: $nordFrost3 1px solid;
+    color: $nordDark4;
     text-shadow: none;
     overflow: hidden;
-
     .icoFG {
-        fill: #D8DEE9;
+        fill: $nordDark4;
     }
 
     .icoBG {
-        background: linear-gradient(0deg,#2E3440 0%,#3B4252 100%)
+        background: linear-gradient(0deg,$nordDark0 0%,$nordDark1 100%)
     }
 
     &#SwitcherSteam svg, &#SwitcherBattleNet svg, &#SwitcherRiot svg {
@@ -242,7 +323,8 @@ input[type="checkbox"] + label {
     }
 
     &:hover {
-        border-radius: .35rem;
+      border-radius: .35rem;
+
     }
 
     &#SwitcherSteam:hover svg,
@@ -278,8 +360,8 @@ use.icoGlass {
 }
 
 .modalFG {
-  background: #3B4252;
-  border-radius: .25rem;
+  background: $nordDark1;
+  border-radius: .5rem;
   box-shadow: none;
   z-index: 900;
 
@@ -292,31 +374,25 @@ use.icoGlass {
 }
 
 .folder_indicator_bg.found {
-  background: #A3BE8C;
+  background: $nordAuora3;
 }
 
 .folder_indicator_bg.notfound {
-  background: #BF616A;
+  background: $nordAuora0;
 }
 
-#modal_contents input[type="text"],
-#modal_contents input[type="password"] {
-  background: #3B4252 !important;
-  border-radius: 0.5rem;
-}
 
 #modal_contents {
   font-size: small;
-  background: #242931;
-  border-radius: .25rem;
+  background: $nordDark1-10;
 
   a {
     &:hover {
-      color: #5E81AC;
+      color: $nordFrost3;
     }
 
     &:active {
-      color: #5E81AC;
+      color: $nordFrost3;
     }
   }
 
@@ -333,19 +409,19 @@ use.icoGlass {
   border-style: solid;
   cursor: pointer;
   transition: ease-in-out 60ms;
-  background: #2E3440;
+  background: $nordDark0;
   font-size: smaller;
-  border-color: #3B4252;
+  border-color: $nordDark1;
   border-radius: 0.35rem !important;
 
   &:hover {
-    background-color: lighten($color: #2E3440, $amount: 10%);
+    background-color: $nordDark1-10;
     border-radius: 0.5rem;
-    border-color: lighten($color: #3B4252, $amount: 10%);
+    border-color: $nordDark2-10;
   }
 
   &:active {
-    background: #38404e !important;
+    background: $nordDark1-10 !important;
   }
 }
 
@@ -354,7 +430,7 @@ use.icoGlass {
     font-size: medium !important;
   }
   input {
-    background-color: #484848 !important;
+    background-color: $nordDark1-10 !important;
   }
 }
 button#select_location,
@@ -372,7 +448,7 @@ button#LocateProgramExe,
 }
 
 #window-title-modal {
-  background: #4C566A;
+  background: $nordDark3;
 }
 
 .headerbar,
@@ -380,7 +456,7 @@ button#LocateProgramExe,
 .resizeBottomRight,
 .resizeBottomLeft,
 #window-controls {
-  background: #2E3440;
+  background: $nordDark0;
   z-index: 500 !important;
 }
 
@@ -388,16 +464,18 @@ button#LocateProgramExe,
 #btnBack:hover,
 #btnRestore:hover,
 #btnMax:hover {
-  background: #5E81AC;
+  background: $nordFrost3;
 }
 
 .clearingRight {
-  background-color: #2E3440 !important;
+  background-color: $nordDark0-10 !important;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid $nordFrost3 !important;
 }
 
 .resizeRight,
 .resizeLeft {
-  background: #2E3440;
+  background: $nordDark0;
 }
 
 .btnClose-modal {
@@ -407,14 +485,13 @@ button#LocateProgramExe,
 .contextmenu,
 .submenu {
   font-size: smaller;
-  background: #313545 !important;
+  background: $nordDark1-10 !important;
   box-shadow: none;
-  border: 6px solid #2E3440;
+  border: 6px solid $nordDark0;
   width: 15em;
   margin: 0;
   padding: 0;
-  // border-radius: 0.15em;
-  border-radius: 2em;
+  border-radius: 0.15em;
   list-style: none;
   z-index: 999999;
 }
@@ -423,21 +500,34 @@ button#LocateProgramExe,
 }
 
 .accountHover {
-  background-color: #2E3440;
-  border: var(--accent) 1px solid;
+  background-color: $nordDark3 !important;
+  border: $nordFrost3 1px solid;
   border-radius: 0.35rem;
+  border-bottom: solid 2px $nordFrost2;
+
+  label.acc.currentAcc {
+    border-style: solid;
+    border-color: $nordAuora3;
+    border-bottom: none;
+  }
+
+  input.acc:checked + label.acc {
+    border-bottom: none;
+  }
+
 }
 
+
 .placeHolderAcc {
-  background-color: #3B4252;
+  background-color: $nordDark1;
   border-style: dashed !important;
-  border: var(--accent) 2px solid;
+  border: $nordFrost3 2px solid;
   border-radius: 0.35rem;
 }
 
 .placeHolderPlat {
-    background-color: #3B4252;
-    border: var(--accent) 2px solid;
+    background-color: $nordDark1;
+    border: $nordFrost3 2px solid;
     width: 20vw;
     height: 20vw;
     max-width: 175px;
@@ -449,18 +539,18 @@ button#LocateProgramExe,
 
 
 .contextmenu li:hover {
-    border-left: 2px solid var(--accent);
-    background: #2E3440;
+    border-left: 2px solid $nordFrost3;
+    background: $nordDark0
 }
 
 input.acc:checked + label.acc {
-  border-color: var(--accent);
-  background: #3B4252;
+  border-color: $nordAuora3 !important;
+  background: $nordDark1;
   border-radius: 0.3rem;
 }
 
 label.acc.currentAcc {
-  border-color: #A3BE8C;
+  border-color: $nordAuora3;
   border-style: dashed;
   border-radius: 0.35rem;
 }
@@ -468,11 +558,13 @@ label.acc.currentAcc {
 
 @keyframes effect {
   0% {
-    border: var(--accent) -1px solid;
+    border: $nordFrost3 -1px solid;
+    transform: scale(1);
   }
 
   100% {
     border: #0a0d1200 -20px solid;
+    transform: scale(1.25);
   }
 }
 
