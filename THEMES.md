@@ -14,15 +14,22 @@ Here you can find preview images for all the themes. Some of them may have diffe
 
 ### [Dracula Cyan (Default)](Themes/Default_Themes/Dracula_Cyan)
 
-![Dracula Cyan Screenshot](Themes/Default_Themes/Dracula_Cyan/Switcher.png)
+![Dracula Cyan Screenshot](https://i.imgur.com/o8Veoxr.png)
 
 ### [Old Default](Themes/Default_Themes/Old_Default)
 
-![Default Screenshot](Themes/Default_Themes/Old_Default/Switcher.png)
+![Default Screenshot](https://i.imgur.com/kaIJqAg.png)
 
 ---
 
 ## [Monokai Themes](Themes/Monokai_Themes)
 ### [Monokai](Themes/Monokai_Themes/Monokai)
 
-![LTR](https://i.imgur.com/1nM5ESe.png)
+![LTR](https://i.imgur.com/QPoPVEB.png)
+
+---
+
+## [Nord Themes](Themes/Nord_Themes)
+### [Nord](Themes/Nord_Themes/Nord)
+
+![Nord Screenshot](https://i.imgur.com/BvJDubk.png)
