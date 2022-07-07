@@ -88,19 +88,23 @@ button:active,
   border-radius: 0.2rem;
 }
 
-#btnClose:hover,#btnClose-modal:hover {
+#btnClose:hover,
+#btnClose-modal:hover {
   background: $nordAuora0 !important;
 }
 
-#btnClose:active,#btnClose-modal:active {
+#btnClose:active,
+#btnClose-modal:active {
   background: $nordAuora0 !important;
 }
 
-#btnClose:active .icon,#btnClose-modal:active .icon {
+#btnClose:active .icon,
+#btnClose-modal:active .icon {
   filter: invert(1);
 }
 
-#btnStartPlat, #shortcutDropdownBtn, .shortcutDropdown #btnOpenShortcutFolder {
+#btnStartPlat, #shortcutDropdownBtn,
+.shortcutDropdown #btnOpenShortcutFolder {
     min-width: 48px;
     min-height: 48px;
     max-width: 48px;
@@ -111,7 +115,12 @@ button:active,
     right: -50px;
 }
 
-.shortcuts button, .shortcuts .button, .shortcuts .shortcutPlaceholder, .shortcutDropdown button, .shortcutDropdown .button, .shortcutDropdown .shortcutPlaceholder {
+.shortcuts button,
+.shortcuts .button,
+.shortcuts .shortcutPlaceholder,
+.shortcutDropdown button,
+.shortcutDropdown .button,
+.shortcutDropdown .shortcutPlaceholder {
     min-width: 40px;
     min-height: 40px;
     max-width: 40px;
@@ -137,7 +146,8 @@ button:active,
     border: .1em solid transparent;
 }
 
-.shortcutDropdown, .shortcuts.expandShortcuts {
+.shortcutDropdown,
+.shortcuts.expandShortcuts {
     border: .1em solid $nordFrost3;
 }
 
@@ -200,7 +210,8 @@ input[type="checkbox"] + label {
 
 input[type=number],
 input[type=text],
-input[type=password] {
+input[type=password],
+textarea {
     -moz-appearance: textfield;
     display: inline-block;
     margin: 0 0.5em 2px 0.5em;
@@ -219,7 +230,8 @@ input[type=text]:focus,
 input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%); }
 
 
-#modal_contents input[type=text],#modal_contents input[type=password] {
+#modal_contents input[type=text],
+#modal_contents input[type=password] {
   margin: 0;
   height: 43px;
   padding-bottom: 2px;
@@ -228,10 +240,10 @@ input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%);
   color: $nordDark6;
 }
 
-#modal_contents input[type=text]:focus, #modal_contents input[type=password]:focus {
-  border-bottom: 2px solid $nordFrost3; 
+#modal_contents input[type=text]:focus,
+#modal_contents input[type=password]:focus {
+  border-bottom: 2px solid $nordFrost3;
 }
-
 
 .acc_list_actionbar {
   position: fixed;
@@ -249,7 +261,8 @@ input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%);
     color: $nordFrost3 !important;
   }
 
-  span.selected-path, spanselected-path::before {
+  span.selected-path,
+  spanselected-path::before {
     background-color: $nordFrost3;
   }
 
@@ -282,7 +295,7 @@ input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%);
     color: $nordFrost1 !important;
 }
 
-    
+
 }
 
 .acc_list_item,
@@ -317,7 +330,9 @@ input[type=password]:focus { border-bottom: 2px solid lighten($nordFrost3, 10%);
         background: linear-gradient(0deg,$nordDark0 0%,$nordDark1 100%)
     }
 
-    &#SwitcherSteam svg, &#SwitcherBattleNet svg, &#SwitcherRiot svg {
+    &#SwitcherSteam svg,
+    &#SwitcherBattleNet svg,
+    &#SwitcherRiot svg {
         border-radius: 25px;
         filter: grayscale(100%);
     }
