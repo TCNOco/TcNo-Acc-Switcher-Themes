@@ -72,6 +72,7 @@ windowControlsCloseBackground-active: "#D51426"
 
 ## Screenshots
 [Followed by at least one image - Example:]
+### Image Title
 <![Tag](image.png)>
 
 ## Information
@@ -85,6 +86,8 @@ Created by <username>.
 If your work applies or works well with the actual program, your user-content could be included in any way in the official repo. You will be credited in the software for all to see.
 
 ## Multiple themes
+
+**You do not need a catalogue README.md for theme packs with one theme**, instead leave the parent folder with ONLY your theme folder in it.
 
 Create subfolders for each theme, as well as a catalogue `README.md` file. Continuing the aforementioned `Fire_Flavours` example. As an example, we'll make a new folder for `Purple` and `Green` in `Fire_Flavours`.
 
