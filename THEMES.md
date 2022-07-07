@@ -22,14 +22,14 @@ Here you can find preview images for all the themes. Some of them may have diffe
 
 ---
 
-## [Monokai Themes](Themes/Monokai_Themes)
+## [Monokai Themes](Themes/Monokai_Themes/Monokai)
 ### [Monokai](Themes/Monokai_Themes/Monokai)
 
 ![LTR](https://i.imgur.com/QPoPVEB.png)
 
 ---
 
-## [Nord Themes](Themes/Nord_Themes)
+## [Nord Themes](Themes/Nord_Themes/Nord)
 ### [Nord](Themes/Nord_Themes/Nord)
 
 ![Nord Screenshot](https://i.imgur.com/BvJDubk.png)

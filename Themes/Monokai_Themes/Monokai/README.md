@@ -4,10 +4,24 @@
 
 ## Screenshots
 
+### Platform Selection
+
 ![Platform Selection](https://i.imgur.com/OSY4cuI.png)
+
+### Location Modal
+
 ![Location Modal](https://i.imgur.com/9ClRmHF.png)
+
+### Settings
+
 ![Settings](https://i.imgur.com/GaseTxi.png)
+
+### Account Selection
+
 ![Account Selection](https://i.imgur.com/QPoPVEB.png)
+
+### GIF of theme
+
 ![GIF](https://i.imgur.com/fqoMVth.gif)
 
 ## Information
