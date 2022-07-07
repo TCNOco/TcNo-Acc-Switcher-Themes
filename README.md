@@ -4,6 +4,10 @@
     <img src="https://raw.githubusercontent.com/TcNobo/TcNo-Acc-Switcher-Themes/master/other/img/Themes_Banner.png"></a>
 </p>
 
+<p align="center"><a target="_blank" href="https://github.com/TcNobo/TcNo-Acc-Switcher-Themes/blob/main/THEMES.md">
+  <img alt="View Themes" src="/other/img/View_Themes.png" height=70"></a>
+</p>
+
 # Themes
 
 **This is a collection of themes for the [TcNo Account Switcher](https://github.com/TcNobo/TcNo-Acc-Switcher)**, A Super fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot Games and Ubisoft (and more soon).
