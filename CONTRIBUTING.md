@@ -123,7 +123,7 @@ Edit the existing `Themes.md` file to add your work.
 ```markdown
 ## [<Theme group name>](Themes/<Themes folder>)
 
-[A single image of the theme]
+[A single image (collage preferrable) of the theme]
 ```
 
 **For a theme group:**
@@ -133,7 +133,7 @@ Edit the existing `Themes.md` file to add your work.
 
 ### [<Theme name 1>](Themes/<Themes folder>/<Theme1>)
 
-[A single image of the theme]
+[A single image (collage preferrable) of the theme]
 
 ...
 ```
