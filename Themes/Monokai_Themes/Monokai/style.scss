@@ -342,9 +342,10 @@ button#LocateProgramExe,
 
 #window-controls button:hover,
 #btnBack:hover,
+#modalBtnBack:hover,
 #btnRestore:hover,
 #btnMax:hover {
-  background: #fce5668f;
+    background: #fce5668f;
 }
 
 .clearingRight {
@@ -373,11 +374,10 @@ button#LocateProgramExe,
   box-shadow: none;
 }
 
-.accountHover,
-.accountHover {
-  background-color: #1b1b1b;
-  border: var(--accent) 0.1em solid;
-  border-radius: 0.9rem;
+.accountHover > label.acc {
+    background-color: #1b1b1b;
+    border: var(--accent) 0.1em solid;
+    border-radius: 0.9rem;
 }
 
 .placeHolderAcc {
