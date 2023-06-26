@@ -33,3 +33,9 @@ Here you can find preview images for all the themes. Some of them may have diffe
 ### [Nord](Themes/Nord_Themes/Nord)
 
 ![Nord Collage](https://i.imgur.com/bkMfkJa.png)
+
+---
+
+### [Tokyo Night](Themes/Tokyo_Night)
+
+![Tokyo Night Collage](https://i.imgur.com/xkg042o.png)
